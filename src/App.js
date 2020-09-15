@@ -6,6 +6,9 @@ import { Row, Col } from 'react-bootstrap'
 import styled from 'styled-components'
 
 const Styles = styled.div`
+  height: 100%;
+  width: 100vw;
+  background: #f7f7f7;
 `
 
 function App() {
@@ -14,7 +17,7 @@ function App() {
       <Styles>
         <Navbar />
         <Switch>
-          
+
         </Switch>
       </Styles>
     </Router>
