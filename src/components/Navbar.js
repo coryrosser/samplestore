@@ -14,6 +14,10 @@ const Styles = styled.div`
     margin-top: .25vh;
     margin-left: 1vh;
   }
+  .nav-item-col {
+    text-align: center;
+    align-items: center;
+  }
   .img-col {
     color: #444;
   }
@@ -33,19 +37,29 @@ const Navbar = (props) => {
           <GiKnifeFork className='logo-img'/>
           <span className='brand-name'>rest.</span>
         </Col>
-        <Col xs={4}>
+        <Col 
+        className='nav-item-col'
+        xs={4}>
           Spot 2
         </Col>
-        <Col xs={1}>
+        <Col 
+        className='nav-item-col'
+        xs={1}>
           About Us
         </Col>
-        <Col xs={1}>
+        <Col 
+        className='nav-item-col'
+        xs={1}>
           Menu
         </Col>
-        <Col xs={1}>
+        <Col 
+        className='nav-item-col'
+        xs={1}>
           Our Team
         </Col>
-        <Col xs={1}>
+        <Col 
+        className='nav-item-col'
+        xs={1}>
           Contact
         </Col>
       </Row>
