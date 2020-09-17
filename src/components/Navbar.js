@@ -37,16 +37,16 @@ const Navbar = (props) => {
           Spot 2
         </Col>
         <Col xs={1}>
-          Spot 3
+          About Us
         </Col>
         <Col xs={1}>
-          Spot 4
+          Menu
         </Col>
         <Col xs={1}>
-          Spot 5
+          Our Team
         </Col>
         <Col xs={1}>
-          Spot 6
+          Contact
         </Col>
       </Row>
     </Styles>
