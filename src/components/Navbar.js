@@ -7,7 +7,7 @@ import styled from 'styled-components'
 const Styles = styled.div`
   height: 8vh;
   width: 100%;
-  background: rgb(250, 0, 0, 0.4);
+  background: #eddcd2;
 
   .logo-img {
     font-size: 7vh;
@@ -48,12 +48,12 @@ const Navbar = (props) => {
         <Col 
         className='nav-item-col'
         xs={1}>
-          <div>About Us</div>
+          <div>Menu</div>
         </Col>
         <Col 
         className='nav-item-col'
         xs={1}>
-          <div>Menu</div>
+          <div>About Us</div>
         </Col>
         <Col 
         className='nav-item-col'
