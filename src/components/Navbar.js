@@ -6,7 +6,7 @@ import styled from 'styled-components'
 
 const Styles = styled.div`
   height: 8vh;
-  width: 100%;
+  width: 100vw;
   background: #eddcd2;
 
   .logo-img {
