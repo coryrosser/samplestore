@@ -17,6 +17,10 @@ const Styles = styled.div`
   .nav-item-col {
     text-align: center;
     align-items: center;
+    cursor: pointer;
+  }
+  .nav-item-col > div {
+    margin-top: 2.5vh;
   }
   .img-col {
     color: #444;
@@ -40,27 +44,26 @@ const Navbar = (props) => {
         <Col 
         className='nav-item-col'
         xs={4}>
-          Spot 2
         </Col>
         <Col 
         className='nav-item-col'
         xs={1}>
-          About Us
+          <div>About Us</div>
         </Col>
         <Col 
         className='nav-item-col'
         xs={1}>
-          Menu
+          <div>Menu</div>
         </Col>
         <Col 
         className='nav-item-col'
         xs={1}>
-          Our Team
+          <div>Our Team</div>
         </Col>
         <Col 
         className='nav-item-col'
         xs={1}>
-          Contact
+          <div>Contact</div>
         </Col>
       </Row>
     </Styles>
