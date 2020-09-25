@@ -8,6 +8,7 @@ const Styles = styled.div`
   height: 8vh;
   width: 100vw;
   background: #eddcd2;
+  
 
   .logo-img {
     font-size: 7vh;
