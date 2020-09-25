@@ -27,7 +27,10 @@ const Container = (props) => {
   return (
     <Styles>
       <Row className='main-container-row'>
-        <div className='brand-name'>rest. Eatery</div>
+        <Col></Col>
+        <Col></Col>
+        <Col></Col>
+        <Col></Col>
       </Row>
     </Styles>
   )
